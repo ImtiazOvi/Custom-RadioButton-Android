@@ -26,7 +26,7 @@ public class ImtiazRadioButtom extends AppCompatRadioButton {
     protected void onAttachedToWindow() {
         super.onAttachedToWindow();
         setOwnOnCheckedChangeListener();
-
+        //setButtonDrawable(null);
     }
 
     public void setOwnOnCheckedChangeListener(OnCheckedChangeListener onCheckedChangeListener){
